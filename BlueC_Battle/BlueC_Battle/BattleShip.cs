@@ -1,4 +1,6 @@
-﻿namespace BlueC_Battle
+﻿using System.Collections.Generic;
+
+namespace BlueC_Battle
 {
     public abstract class BattleShip
     {
@@ -7,5 +9,10 @@
         protected IFitInSocket Slot3;
         protected IFitInSocket Slot4;
         protected IFitInSocket Slot5;
+
+        protected IEnumerable<ICoordinate> GetCoordinates()
+        {
+            return new List<ICoordinate>();
+        }
     }
 }

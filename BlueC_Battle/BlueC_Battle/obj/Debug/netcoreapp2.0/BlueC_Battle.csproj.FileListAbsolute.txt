@@ -1,0 +1,4 @@
+C:\Users\nieu0082\Documents\BlueC_Battle\BlueC_Battle\BlueC_Battle\obj\Debug\netcoreapp2.0\BlueC_Battle.csprojResolveAssemblyReference.cache
+C:\Users\nieu0082\Documents\BlueC_Battle\BlueC_Battle\BlueC_Battle\obj\Debug\netcoreapp2.0\BlueC_Battle.csproj.CoreCompileInputs.cache
+C:\Users\nieu0082\Documents\BlueC_Battle\BlueC_Battle\BlueC_Battle\obj\Debug\netcoreapp2.0\BlueC_Battle.AssemblyInfoInputs.cache
+C:\Users\nieu0082\Documents\BlueC_Battle\BlueC_Battle\BlueC_Battle\obj\Debug\netcoreapp2.0\BlueC_Battle.AssemblyInfo.cs

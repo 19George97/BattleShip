@@ -14,5 +14,15 @@ namespace BlueC_Battle
         {
             return new List<ICoordinate>();
         }
+
+        protected int GetMaxX()
+        {
+            return 100;
+        }
+
+        protected int GetMaxY()
+        {
+            return 100;
+        }
     }
 }

@@ -9,8 +9,8 @@ namespace nieu0082
     {
         public Ship()
         {
-            this.Slot1 = new Kanon();
-            this.Slot1 = new Kanon();
+            this.Slot1 = new DingesFireDragonn();
+            this.Slot2 = new DingesFireDragonn();
         }
     }
 }

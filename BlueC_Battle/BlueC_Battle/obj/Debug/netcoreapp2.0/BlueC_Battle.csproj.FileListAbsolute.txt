@@ -2,3 +2,10 @@ C:\Users\nieu0082\Documents\BlueC_Battle\BlueC_Battle\BlueC_Battle\obj\Debug\net
 C:\Users\nieu0082\Documents\BlueC_Battle\BlueC_Battle\BlueC_Battle\obj\Debug\netcoreapp2.0\BlueC_Battle.csproj.CoreCompileInputs.cache
 C:\Users\nieu0082\Documents\BlueC_Battle\BlueC_Battle\BlueC_Battle\obj\Debug\netcoreapp2.0\BlueC_Battle.AssemblyInfoInputs.cache
 C:\Users\nieu0082\Documents\BlueC_Battle\BlueC_Battle\BlueC_Battle\obj\Debug\netcoreapp2.0\BlueC_Battle.AssemblyInfo.cs
+C:\Users\nieu0082\Documents\BlueC_Battle\BlueC_Battle\BlueC_Battle\bin\Debug\netcoreapp2.0\BlueC_Battle.deps.json
+C:\Users\nieu0082\Documents\BlueC_Battle\BlueC_Battle\BlueC_Battle\bin\Debug\netcoreapp2.0\BlueC_Battle.runtimeconfig.json
+C:\Users\nieu0082\Documents\BlueC_Battle\BlueC_Battle\BlueC_Battle\bin\Debug\netcoreapp2.0\BlueC_Battle.runtimeconfig.dev.json
+C:\Users\nieu0082\Documents\BlueC_Battle\BlueC_Battle\BlueC_Battle\bin\Debug\netcoreapp2.0\BlueC_Battle.dll
+C:\Users\nieu0082\Documents\BlueC_Battle\BlueC_Battle\BlueC_Battle\bin\Debug\netcoreapp2.0\BlueC_Battle.pdb
+C:\Users\nieu0082\Documents\BlueC_Battle\BlueC_Battle\BlueC_Battle\obj\Debug\netcoreapp2.0\BlueC_Battle.dll
+C:\Users\nieu0082\Documents\BlueC_Battle\BlueC_Battle\BlueC_Battle\obj\Debug\netcoreapp2.0\BlueC_Battle.pdb

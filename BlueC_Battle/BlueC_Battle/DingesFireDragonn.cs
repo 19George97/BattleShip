@@ -4,11 +4,11 @@ using System.Text;
 
 namespace BlueC_Battle
 {
-    class Kanon : IKanon, IFitInSocket
+    public class DingesFireDragonn: IKanon, IFitInSocket
     {
         public ICoordinate Fire(ICoordinate coordinate)
         {
-            throw new NotImplementedException();
+            return null;
         }
 
         public ICoordinate Fire()

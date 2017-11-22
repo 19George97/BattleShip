@@ -1604,9 +1604,6 @@
       "BlueC_Battle/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "Microsoft.NETCore.App": "2.0.0"
-        },
         "compile": {
           "bin/placeholder/BlueC_Battle.dll": {}
         },
@@ -5640,40 +5637,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\nieu0082\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/giorgio/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
-      "projectUniqueName": "C:\\Users\\nieu0082\\Documents\\BlueC_Battle\\BlueC_Battle\\UnitTestProject1\\UnitTestProject1.csproj",
+      "projectUniqueName": "/Users/giorgio/Documents/HBO-ICT/blueC/BlueC_Battle/BlueC_Battle/UnitTestProject1/UnitTestProject1.csproj",
       "projectName": "UnitTestProject1",
-      "projectPath": "C:\\Users\\nieu0082\\Documents\\BlueC_Battle\\BlueC_Battle\\UnitTestProject1\\UnitTestProject1.csproj",
-      "packagesPath": "C:\\Users\\nieu0082\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nieu0082\\Documents\\BlueC_Battle\\BlueC_Battle\\UnitTestProject1\\obj\\",
+      "projectPath": "/Users/giorgio/Documents/HBO-ICT/blueC/BlueC_Battle/BlueC_Battle/UnitTestProject1/UnitTestProject1.csproj",
+      "packagesPath": "/Users/giorgio/.nuget/packages/",
+      "outputPath": "/Users/giorgio/Documents/HBO-ICT/blueC/BlueC_Battle/BlueC_Battle/UnitTestProject1/obj",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\nieu0082\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/giorgio/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\nieu0082\\Documents\\BlueC_Battle\\BlueC_Battle\\BlueC_Battle\\BlueC_Battle.csproj": {
-              "projectPath": "C:\\Users\\nieu0082\\Documents\\BlueC_Battle\\BlueC_Battle\\BlueC_Battle\\BlueC_Battle.csproj"
+            "/Users/giorgio/Documents/HBO-ICT/blueC/BlueC_Battle/BlueC_Battle/BlueC_Battle/BlueC_Battle.csproj": {
+              "projectPath": "/Users/giorgio/Documents/HBO-ICT/blueC/BlueC_Battle/BlueC_Battle/BlueC_Battle/BlueC_Battle.csproj"
             }
           }
         }
@@ -5687,15 +5675,8 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
-          "MSTest.TestFramework": {
-            "target": "Package",
-            "version": "1.1.18"
-          },
-          "MSTest.TestAdapter": {
-            "target": "Package",
-            "version": "1.1.18"
-          },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
@@ -5703,6 +5684,14 @@
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "15.3.0-preview-20170628-02"
+          },
+          "MSTest.TestAdapter": {
+            "target": "Package",
+            "version": "1.1.18"
+          },
+          "MSTest.TestFramework": {
+            "target": "Package",
+            "version": "1.1.18"
           }
         },
         "imports": [

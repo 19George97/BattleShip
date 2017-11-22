@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{0C262277-BBE6-4FD1-9CAC-72D16B8361D1}|Default">
+  <MonoDevelop.Ide.ItemProperties.BlueC__Battle PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="UnitTestProject1/IGoalkeeprUnitTest.cs">
+    <Files>
+      <File FileName="BlueC_Battle/Program.cs" Line="14" Column="14" />
+      <File FileName="BlueC_Battle/IGoalkeeper.cs" Line="16" Column="1" />
+      <File FileName="BlueC_Battle/Goalkeeper.cs" Line="7" Column="18" />
+      <File FileName="BlueC_Battle/ChallengeCalculator.cs" Line="43" Column="14" />
+      <File FileName="BlueC_Battle/Challenge.cs" Line="56" Column="9" />
+      <File FileName="UnitTestProject1/IGoalkeeprUnitTest.cs" Line="9" Column="21" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

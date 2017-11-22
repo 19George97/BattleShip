@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BlueC_Battle
 {
-    public class Goalkeeper : IGoalkeeper
+    public class Goalkeeper : IGoalkeeper, IFitInSocket
     {
         public int AcceptChallenge(string challenge)
         {

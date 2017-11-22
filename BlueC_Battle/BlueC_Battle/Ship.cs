@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using BlueC_Battle;
 
-namespace nieu0082
+namespace jozi0012
 {
     public class Ship: BattleShip
     {
@@ -11,6 +11,7 @@ namespace nieu0082
         {
             this.Slot1 = new DingesFireDragonn();
             this.Slot2 = new DingesFireDragonn();
+            this.Slot3 = new Goalkeeper();
         }
     }
 }

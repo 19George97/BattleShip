@@ -16,8 +16,19 @@ namespace BlueC_Battle
             {
                 Operator = arguments[0];
                 Getal1 = Int32.Parse(arguments[1]);
-
-                // getal2
+                Getal2 = Int32.Parse(arguments[2]);
+            } 
+            else if (IsOperator(arguments[1])) 
+            {
+                Operator = arguments[1];
+                Getal1 = Int32.Parse(arguments[0]);
+                Getal2 = Int32.Parse(arguments[2]);
+            }
+            else if (IsOperator(arguments[2])) 
+            {
+                Operator = arguments[2];
+                Getal1 = Int32.Parse(arguments[0]);
+                Getal2 = Int32.Parse(arguments[1]);
             }
         }
 
@@ -25,10 +36,12 @@ namespace BlueC_Battle
         {
             bool isAdd = given == "+";
             bool isMin = given == "-";
-            // etc
+            bool isMultiply = given == "*";
+            bool isDivide = given == "/";
+            bool isModulo = given == "%";
 
-            return isAdd 
-                || isMin;
+            return isAdd || isMin || isMultiply || isDivide || isModulo;
+                
         }
 
         public string GetOperator()
@@ -36,5 +49,14 @@ namespace BlueC_Battle
             return this.Operator;
         }
 
+        public int GetGetal1()
+        {
+            return this.Getal1;
+        }
+
+        public int GetGetal2()
+        {
+            return this.Getal2;
+        }
     }
 }

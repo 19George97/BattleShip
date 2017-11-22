@@ -8,18 +8,22 @@ namespace BlueC_Battle
     {
         public int Accept(string challenge)
         {
-            // 
+            Challenge parsed = Parse(challenge);
+            int calculated = this.Calculate(parsed);
+
+            return calculated;
         }
 
         public Challenge Parse(string challenge)
         {
-            return new Challenge();
+            string[] splitted = challenge.Split(" ");
+            return new Challenge(splitted);
         }
 
         public int Calculate(Challenge challenge)
         {
             // calculator
-            challenge.GetOperator();
+            return 3;
         }
     }
 }

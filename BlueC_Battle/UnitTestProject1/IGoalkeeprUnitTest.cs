@@ -12,7 +12,7 @@ namespace UnitTestProject1
             // Arrange
             string challenge = "+ 2 3";
             int expected = 5;
-            var goalKeeper = null;// new Goalkeeper()
+            var goalKeeper = new Goalkeeper();
 
             // Act
             int result = goalKeeper.AcceptChallenge(challenge);
@@ -27,7 +27,7 @@ namespace UnitTestProject1
             // Arrange
             string challenge = "2 + 3";
             int expected = 5;
-            var goalKeeper = null;// new Goalkeeper()
+            var goalKeeper = new Goalkeeper();
 
             // Act
             int result = goalKeeper.AcceptChallenge(challenge);
